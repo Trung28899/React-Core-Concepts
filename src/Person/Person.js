@@ -2,15 +2,17 @@
 // to understand how to use a component
 
 import React from "react";
+import "./Person.css";
 
 // Pass props here to get the field in the JSX
 const person = (props) => {
   return (
-    <div>
-      <p>
-        I'm a {props.name} and I am {props.age} years old !!
+    <div className='Person'>
+      <p onClick={props.click}>
+        I'm {props.name} and I am {props.age} years old !!
       </p>
       <p>{props.children}</p>
+      <input type='text' onChange={props.changed} />
     </div>
   );
 };

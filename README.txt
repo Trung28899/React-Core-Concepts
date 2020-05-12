@@ -56,9 +56,30 @@ how to import the components in Person/Person.js file into App.js
 
 - Understand the "children" Prop: props.children get any element that is 
 between the <Person> </Person> tag 
-(in the comment part in the bottom)
+(Have a look in the Person.js)
 
 - The use of state, Read "Prop and State documentation" for some more information
 
-- Event listener: read this documentation https://reactjs.org/docs/events.html#supported-events
+- Event listener: read this documentation (optional) 
+https://reactjs.org/docs/events.html#supported-events
 and see example, notice about the way of changing state object properties
+
+- Functional and Class component: 
++, Class components was the original way of working 
+with React. So far the most popular
++, Functional Components are new so its not very poplular. 
+Using Functional Components is Reack Hook
++, Read Example to see how to use state in Hook
+
+- Stateful vs Stateless components: 
++, Stateful components contains the state of the component, should only has
+1 or 2 stateful components in your application
++, Stateless component doesn't contain the state of the component
+should have as much stateless component as possible
+
+- Notice the use of method and passing argument of the method
+
+- Styling options: 
++, Import new css file in the component
++, Style in App.css
++, Style in App.js using attribute and variables
